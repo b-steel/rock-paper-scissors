@@ -1,0 +1,56 @@
+.container {
+    background-color: aquamarine;
+}
+
+button {
+    background-color: cadetblue;
+}
+.buttons {
+    text-align: center;
+}
+
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#results-grid-outer {
+    grid-template-areas: 
+    'title title'
+    'player computer';
+}
+
+
+.item1 { grid-area: title; }
+.score-container {
+    text-align: left;
+}
+#player-grid {
+    grid-area: player;
+    grid-template-areas: 
+    'name name'
+    'score-title points'
+    'throw-title throw';}
+    
+#computer-grid {
+    grid-area: computer;
+    grid-template-areas: 
+    'name name'
+    'score-title points'
+    'throw-title throw';
+}
+.name {grid-area: name;}
+.score-title {grid-area: score-title;}
+.points {
+    grid-area: points;
+text-align: right;
+}
+.thow-title {grid-area: throw-title;}
+.last-throw {
+    grid-area: throw;
+    text-align: right;
+}
+
+

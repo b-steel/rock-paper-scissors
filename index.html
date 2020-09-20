@@ -8,12 +8,63 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="style/style.css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <p>Hello, world!</p>
+  <div class="main">
+    <div class="buttons">
+      <button id="rock" class="throw-button"> 
+        <img src='images/rock-icon.jpg' alt="rock-button">
+      </button>
+      <button id="paper" class="throw-button"> 
+        <img src="images/paper-icon.jpg" alt="paper-button">
+      </button>
+      <button id="scissors" class="throw-button"> 
+        <img src="images/scissors-icon.jpg" alt="scissors-button">
+      </button>
+    </div>
+    <div class="container">
+      <div class="grid-container">
+        <div id="grid-item-1"> Player</div>
+        <div id="grid-item-2"> Computer</div>
+      </div>
+      <div id="choice-container" class="grid-container">
+       
+    </div>
+    <div id="message">
+
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th> Round </th>
+          <th> Player </th>
+          <th> Computer </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td>--</td>
+          <td>--</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td> Score </td>
+          <td> 0 </td>
+          <td> 0 </td>
+        </tr>
+      </tfoot>
+    </table>
+    <button id="reset"> Start Over </button>
+  </div>
+
+
+
+
 
   <script src="js/script.js"></script>
 </body>
