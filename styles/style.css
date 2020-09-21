@@ -80,7 +80,7 @@ img {
     
 }
 .main-background {
-    background-image: url('/images/blue-ocean-illustration.jpg');
+    background-image: url('../images/blue-ocean-illustration.jpg');
     background-color: rgb(36, 71, 226);
     
     height: 100%;
