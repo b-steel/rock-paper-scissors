@@ -51,7 +51,7 @@ function convertChoiceToSrc(choice) {
         case 'paper':
             return 'images/paper-icon.jpg';
         case 'scissors':
-            return 'images/scissors-icon.jpg';
+            return 'images/scissors-icon.png';
     }
 }
 

@@ -7,66 +7,68 @@
   <meta name="author" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link href='https://fonts.googleapis.com/css?family=Bai Jamjuree' rel='stylesheet'>
   <link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
+  <div class="main-background">
+    <div class="smaller-background">
+      <div class="main">
+        <h1 class="title">Rock -- Paper -- Scissors</h1>
+        <div class="buttons">
+          <button id="rock" class="throw-button">
+            <img src='images/rock-icon.jpg' alt="rock-button">
+          </button>
+          <button id="paper" class="throw-button">
+            <img src="images/paper-icon.jpg" alt="paper-button">
+          </button>
+          <button id="scissors" class="throw-button">
+            <img src="images/scissors-icon.png" alt="scissors-button">
+          </button>
+        </div>
+        <div class="container">
+          <div class="grid-container">
+            <div id="grid-item-1" class="grid-item"> Player</div>
+            <div id="grid-item-2" class="grid-item"> Computer</div>
+          </div>
+          <div id="choice-container" class="grid-container">
 
-  <div class="main">
-    <div class="buttons">
-      <button id="rock" class="throw-button"> 
-        <img src='images/rock-icon.jpg' alt="rock-button">
-      </button>
-      <button id="paper" class="throw-button"> 
-        <img src="images/paper-icon.jpg" alt="paper-button">
-      </button>
-      <button id="scissors" class="throw-button"> 
-        <img src="images/scissors-icon.jpg" alt="scissors-button">
-      </button>
-    </div>
-    <div class="container">
-      <div class="grid-container">
-        <div id="grid-item-1"> Player</div>
-        <div id="grid-item-2"> Computer</div>
+          </div>
+          <div id="message">
+
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th> Round </th>
+                <th> Player </th>
+                <th> Computer </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td> Score </td>
+                <td> 0 </td>
+                <td> 0 </td>
+              </tr>
+            </tfoot>
+          </table>
+          <button id="reset"> Start Over </button>
+        </div>
       </div>
-      <div id="choice-container" class="grid-container">
-       
     </div>
-    <div id="message">
-
-    </div>
-    <table>
-      <thead>
-        <tr>
-          <th> Round </th>
-          <th> Player </th>
-          <th> Computer </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td></td>
-          <td>--</td>
-          <td>--</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td> Score </td>
-          <td> 0 </td>
-          <td> 0 </td>
-        </tr>
-      </tfoot>
-    </table>
-    <button id="reset"> Start Over </button>
-  </div>
 
 
 
-
-
-  <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
